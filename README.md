@@ -23,7 +23,7 @@ networking-labs/
 | Lab | Title | Topics | Folder |
 |-----|-------|--------|--------|
 | 00  | Setup | Packet Tracer environment setup | [lab-00-setup](lab-00-setup) |
-| 01  | First Network | _coming soon_ | — |
+| 01  | First Network | Switching, ARP, ICMP, OSI model, subnets | [lab-01-first-network](lab-01-first-network) |
 | 02  | Routing | _coming soon_ | — |
 
 ## Lab convention
