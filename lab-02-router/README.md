@@ -25,6 +25,8 @@ The IP stays the same from start to finish, but the **MAC address changes at eve
 
 ## Topology
 
+![topology](topology.png)
+
 ```
   PC0 ── Switch0 ── R1 Gi0/0 ══ Gi0/1 ── Switch1 ── PC1
 192.168.1.10      192.168.1.1  192.168.2.1      192.168.2.10
@@ -104,6 +106,7 @@ The router is the checkpoint between networks. Right now it allows all traffic. 
 ## Files
 
 - `lab-02.pkt` — Packet Tracer topology
+- `topology.png` — exported topology diagram
 - `r1-config.txt` — router running configuration
 
 ## Tools
