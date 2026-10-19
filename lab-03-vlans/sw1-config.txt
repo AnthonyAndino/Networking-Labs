@@ -1,0 +1,23 @@
+enable
+configure terminal
+hostname SW1
+vlan 10
+ name ADMIN
+vlan 20
+ name STAFF
+vlan 30
+ name GUEST
+exit
+interface range fastEthernet 0/1-2
+ switchport mode access
+ switchport access vlan 10
+exit
+interface range fastEthernet 0/3-4
+ switchport mode access
+ switchport access vlan 20
+exit
+interface range fastEthernet 0/5-6
+ switchport mode access
+ switchport access vlan 30
+end
+write memory
