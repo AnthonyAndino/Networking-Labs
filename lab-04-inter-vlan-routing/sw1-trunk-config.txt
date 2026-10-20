@@ -1,0 +1,6 @@
+enable
+configure terminal
+interface gigabitEthernet 0/1
+ switchport mode trunk
+end
+write memory

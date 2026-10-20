@@ -26,6 +26,7 @@ networking-labs/
 | 01  | First Network | Switching, ARP, ICMP, OSI model, subnets | [lab-01-first-network](lab-01-first-network) |
 | 02  | Router | Routing, default gateway, ARP across hops, TTL | [lab-02-router](lab-02-router) |
 | 03  | VLANs | VLAN segmentation, broadcast domains, isolation | [lab-03-vlans](lab-03-vlans) |
+| 04  | Inter-VLAN Routing | Trunks, 802.1Q, subinterfaces, router-on-a-stick | [lab-04-inter-vlan-routing](lab-04-inter-vlan-routing) |
 
 ## Lab convention
 
