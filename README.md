@@ -28,6 +28,7 @@ networking-labs/
 | 03  | VLANs | VLAN segmentation, broadcast domains, isolation | [lab-03-vlans](lab-03-vlans) |
 | 04  | Inter-VLAN Routing | Trunks, 802.1Q, subinterfaces, router-on-a-stick | [lab-04-inter-vlan-routing](lab-04-inter-vlan-routing) |
 | 05  | ACLs | Extended ACLs, wildcard masks, first-match, interface direction | [lab-05-acls](lab-05-acls) |
+| 06  | DHCP, DNS, HTTP | DORA, name resolution, web server, APIPA | [lab-06-dhcp-dns-http](lab-06-dhcp-dns-http) |
 
 ## Lab convention
 
