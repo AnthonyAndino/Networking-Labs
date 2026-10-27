@@ -1,0 +1,18 @@
+enable
+configure terminal
+vlan 999
+ name UNUSED
+exit
+interface range fastEthernet 0/1-6
+ switchport mode access
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security mac-address sticky
+ switchport port-security violation shutdown
+exit
+interface range fastEthernet 0/7-24
+ switchport mode access
+ switchport access vlan 999
+ shutdown
+end
+write memory

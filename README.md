@@ -29,6 +29,7 @@ networking-labs/
 | 04  | Inter-VLAN Routing | Trunks, 802.1Q, subinterfaces, router-on-a-stick | [lab-04-inter-vlan-routing](lab-04-inter-vlan-routing) |
 | 05  | ACLs | Extended ACLs, wildcard masks, first-match, interface direction | [lab-05-acls](lab-05-acls) |
 | 06  | DHCP, DNS, HTTP | DORA, name resolution, web server, APIPA | [lab-06-dhcp-dns-http](lab-06-dhcp-dns-http) |
+| 07  | Port Security | Sticky MAC, violation shutdown, black hole VLAN, rogue device | [lab-07-port-security](lab-07-port-security) |
 
 ## Lab convention
 
