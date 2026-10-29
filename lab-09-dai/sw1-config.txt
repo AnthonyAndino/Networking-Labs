@@ -1,0 +1,10 @@
+enable
+configure terminal
+ip arp inspection vlan 1
+interface fastEthernet 0/1
+ ip arp inspection trust
+exit
+interface range fastEthernet 0/2-4
+ ip arp inspection limit rate 15
+end
+write memory
