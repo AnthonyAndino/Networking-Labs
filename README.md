@@ -31,7 +31,8 @@ networking-labs/
 | 06  | DHCP, DNS, HTTP | DORA, name resolution, web server, APIPA | [lab-06-dhcp-dns-http](lab-06-dhcp-dns-http) |
 | 07  | Port Security | Sticky MAC, violation shutdown, black hole VLAN, rogue device | [lab-07-port-security](lab-07-port-security) |
 | 08  | DHCP Snooping | Rogue DHCP, trusted/untrusted ports, binding table, rate limit | [lab-08-dhcp-snooping](lab-08-dhcp-snooping) |
-| 09  | Dynamic ARP Inspection | ARP spoofing, binding table validation, trusted/untrusted, static IPs | [lab-09-dai](lab-09-dai) |\r\n| 10  | pfSense Firewall | Zones (WAN/LAN/DMZ), stateful rules, DMZ segmentation, firewall logs | [lab-10-pfsense-firewall](lab-10-pfsense-firewall) |
+| 09  | Dynamic ARP Inspection | ARP spoofing, binding table validation, trusted/untrusted, static IPs | [lab-09-dai](lab-09-dai) |
+| 10  | pfSense Firewall | Zones (WAN/LAN/DMZ), stateful rules, DMZ segmentation, firewall logs | [lab-10-pfsense-firewall](lab-10-pfsense-firewall) |
 
 ## Lab convention
 
