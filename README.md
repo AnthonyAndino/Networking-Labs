@@ -33,15 +33,16 @@ networking-labs/
 | 08  | DHCP Snooping | Rogue DHCP, trusted/untrusted ports, binding table, rate limit | [lab-08-dhcp-snooping](lab-08-dhcp-snooping) |
 | 09  | Dynamic ARP Inspection | ARP spoofing, binding table validation, trusted/untrusted, static IPs | [lab-09-dai](lab-09-dai) |
 | 10  | pfSense Firewall | Zones (WAN/LAN/DMZ), stateful rules, DMZ segmentation, firewall logs | [lab-10-pfsense-firewall](lab-10-pfsense-firewall) |
+| 11  | Wireshark | Packet capture, display filters, TCP handshake, HTTP in plain text, Block vs Reject | [lab-11-wireshark](lab-11-wireshark) |
 
 ## Lab convention
 
 Each lab folder contains:
 
 - `README.md` — objective, topology explanation, and steps
-- `<lab>.pkt` — the Packet Tracer topology file
+- `<lab>.pkt` — Packet Tracer topology, or `.gns3` + `project-files/` for GNS3 labs
 - `topology.png` — exported diagram image
-- `configs/` — device running-configurations per device
+- device configs or capture screenshots (`*.txt`, `*.png`)
 
 ## Tools
 

@@ -1,0 +1,14 @@
+# GNS3 runtime state (regenerable, binario o privado) — el .gns3 sí se sube
+**/project-files/images/
+**/project-files/qemu/
+**/project-files/docker/
+**/project-files/dynamips/
+**/project-files/captures/
+**/project-files/vpcs/*/vpcs.log
+
+# Capturas de tráfico (nunca publicar)
+*.pcap
+*.pcapng
+
+# Backup local, no va al repo
+lab-10-firewall/
